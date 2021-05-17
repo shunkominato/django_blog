@@ -9,4 +9,5 @@ class BlogListView(ListView):
     model = Blog
 
 class BlogDetailView(DetailView):
+    template_name = 'blog/blog_detail.html'
     model = Blog
